@@ -1,0 +1,44 @@
+
+TCL
+-------------------------------------
+
+Start Transaction :
+
+Insert into table name ()
+
+Update table set value= cur val+1;
+
+rollback;
+
+
+Grant vs Revoke
+----------------------------------
+
+Grant SELECT  ON g4.employees To  'saurabh@localhost';
+
+Revoke select On g4.employees To  'saurabh@localhost';
+
+
+Union 
+-----------------------
+
+select id,name from g4.e1 
+UNION
+select id,name from g4.e2
+
+ 
+select id,name from g4.e1 
+UNION ALL
+select id,name from g4.e2
+
+
+
+
+
+
+
+
+
+
+
+
