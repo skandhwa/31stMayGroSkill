@@ -30,6 +30,7 @@ public void user_launches_the_guru99_demo_application() {
 public void user_enters_the_in_the_user_id_textbox(String user_id) {
 	
 	obj.enterUsername(user_id);
+	System.out.println("Hello");
 	
    
 }
